@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sitename{
+    margin: 0 auto;
+    align-self: center;
+}
+.headname{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.btnspace{
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .btn:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+img{
+    margin: 0 auto;
+    border-radius: 30px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.card{
+    width: 550px;
+    height: 350px;
+    border: solid; 
+    padding: 25px;
+    margin-bottom: 20px;
+    display: flex;
+} 
+.CatInf{
+    margin: 10px;
+}
+p{
+    display: none;
+}
+.card:hover p{
+    display: inline;
+}
+.card:hover img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 90px;
+}
